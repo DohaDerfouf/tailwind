@@ -1,0 +1,13 @@
+{
+  "name": "tailwind",
+  "version": "1.0.0",
+  "main": "tailwind.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "tw": "npx tailwindcss -i ./src/input.css -o ./dist/style.css --watch",
+    "prod": "npx tailwindcss -i ./src/input.css -o ./dist/style.css --watch --minify"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
